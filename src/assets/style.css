@@ -1,0 +1,35 @@
+.tb_search
+{
+    margin-bottom: 10px;
+}
+
+.table-container {
+    border-collapse: collapse;
+    font-size: 18px;
+    min-width: 400px;
+    width: 100%;
+  }
+  .table-container thead tr {
+    background-color: rgb(206, 206, 232);
+    text-align: left;
+    color: darkblue;
+    font-family: inherit;
+    font-weight: 200;
+    font-size: 18px;
+  }
+  .table-container :where(th, td) {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .table-container tbody tr {
+    border: 1px solid #ddd;
+  }
+  .searchBox {
+    margin: 14px;
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .table-container .actionbtn {
+    text-align: center;
+  }
